@@ -1,0 +1,110 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full height for body and html to support background */
+body, html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    background-image: url(https://play-lh.googleusercontent.com/Dt7MIZlAtcsCbyaBVDcsbqfxBbkZ9SbwSgOCB03zK8TnU1-u5srJcVJ8PfsJ5t2t6X9B); /* Replace with your Qntnex image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Container styling */
+.container {
+    /*background-color: rgba(255, 255, 255, 0.8);*/ /* White with more transparency */
+    padding: 50px;
+    border-radius: 20px; /* Softer corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Bigger shadow for depth */
+    width: 450px;
+    margin: 100px auto; /* Centering the container */
+    text-align: center;
+    /*border: 2px solid #ecf0ec; *//* Adding a green border */
+}
+p {
+    font-size: larger;
+    font-style: oblique;
+    color: rgb(13, 45, 254);
+}
+
+/* Heading (h1) styling */
+h1 {
+    font-size: 32px;
+    color: #1b14d2; /* Vibrant green */
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background: linear-gradient(to right, #4CAF50, #81C784); /* Gradient effect */
+    -webkit-background-clip: text;
+    color: transparent; /* Modern gradient text */
+}
+
+/* List styling (unordered list) */
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+/* List item (li) styling */
+li {
+    margin: 15px 0;
+    font-weight: bold;
+    color: #FF5722; /* Colorful orange text for list */
+    transition: transform 0.3s ease;
+}
+
+/* Adding hover effect on list items */
+li:hover {
+    transform: scale(1.1); /* Makes list items pop on hover */
+    color: #16df63; /* Change color on hover */
+}
+
+/* Additional styles for better look */
+li::before {
+    content: "⭐"; /* Adds a star before each list item */
+    color: #FFD700; /* Golden star color */
+    font-weight: bold;
+    display: inline-block; 
+    width: 1.2em;
+    margin-left: -1.2em;
+}
+
+/* Consistent link styling */
+a {
+    color: #1e0bef; /* Green links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c8ea04; /* Orange when hovered */
+}
+
+/* Make sure all font sizes are responsive */
+@media (max-width: 768px) {
+    .container {
+        width: 80%; /* Adjusts the container for smaller screens */
+    }
+    
+    h1 {
+        font-size: 24px; /* Smaller font on mobile */
+    }
+    
+    ul {
+        font-size: 16px; /* Smaller list items */
+    }
+}
+
+a {
+ color:rgb(19, 177, 230) ;
+ font-size: larger;
+ font-style: oblique;
+}

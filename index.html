@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div class="container">
+        <form action="course.html">
+            <h1>Login</h1>
+            <label for="username">Username</label>
+            <input id="username" type="text" name="username" placeholder="Enter your username" pattern="[a-z0-9]+" title="Lowercase letters and digits only" required>
+            
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" placeholder="Enter your password" pattern=".{8,}" title="Password must be at least 8 characters" required>
+            
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
+`
